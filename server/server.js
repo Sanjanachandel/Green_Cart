@@ -17,7 +17,7 @@ const port= process.env.PORT || 4000;
 await connectDB()
 await connectCloudinary()
 //allowed multiple origin
-const allowedOrigins=['http://localhost:5173']
+const allowedOrigins=['http://localhost:5173','https://green-cart-theta.vercel.app']
 //Middleware configuration
 app.use(express.json());
 app.use(cookieParser());
